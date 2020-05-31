@@ -32,3 +32,11 @@ dependencies {
     compile 'com.mcxiaoke.volley:library:1.0.18'
     compile 'com.google.code.gson:gson:2.3'
 }
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:2.1.0"
+    }
+}
